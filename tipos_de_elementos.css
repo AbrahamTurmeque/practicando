@@ -1,0 +1,72 @@
+body{
+    background: gray;
+}
+.tipo-bloque{
+    background: black;
+    color: white;
+    font-size: 25px;
+    width: 400px;
+    padding: 10px;
+    ;
+}
+.tipo-linea{/*Como este elemento es de 
+tipo linea el color resalta el texto, 
+hasta el minimo limite, como se puede
+observar, (matiene una distancia)*/
+    background: darkblue;
+    color: burlywood;
+    font-size: 20px;
+    padding: 10px;/*se ajusta al navegador
+    */
+}
+a{/*otro elemento de tipo linea, como
+    se observa se ajustan precisamente
+    a los elementos del navegador
+    (Se acomodan donde pueden)*/
+    background: violet;
+    color: firebrick;
+    font-size: 20px;
+    padding: 10px;/*se ajusta al navegador
+    */
+    display: inline;
+}
+.otra{/*Entre un elemento de tipo bloque 
+    y otro de tipo linea, se observa
+    que no hay una distacia de separacion*/
+    background: rebeccapurple;
+    color: black;
+    font-size: 20px;
+    padding: 40px;
+}
+.tipo-bloque2{/*se observa que los bloques
+    de texto estan el linea, se acomodan
+    segun al navegador, es decir
+    cambiamos las caracteristicas del 
+    bloque para que vayan en linea */
+      background: white;
+    color: black;
+    font-size: 15px;
+    width: 150px;
+    padding: 18px;
+    display: inline-block;
+
+}
+.uno{
+    background: aquamarine;
+    color:red;
+    font-size: 40px;
+    width: 150px;
+    display: inline-block;
+    margin-right: 40px;
+    border: red solid 5px;
+    text-align: center;
+}
+.dos{
+     background: darkgreen;
+    color:white;
+    font-size: 40px;
+    width: 150px;
+    display: inline-block;
+    border: white solid 5px;
+    text-align: center;
+}
